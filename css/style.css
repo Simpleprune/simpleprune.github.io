@@ -33,6 +33,7 @@ margin: 0 auto;
   height: 50px;
   width: 200px;
   margin:0 auto;
+  vertical-align:center;
 }
 
 .buttn-ys-highlight{
@@ -47,5 +48,6 @@ margin: 0 auto;
   width: 200px;
   border-color:#1469E2;
   margin:0 auto;
+  vertical-align:center;
   
 }
