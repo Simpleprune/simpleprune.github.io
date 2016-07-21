@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.bougie).click(function(){
+  $('.bougie').click(function(){
     $(this).FadeOut('slow');
     });
   });
