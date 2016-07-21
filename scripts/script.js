@@ -3,7 +3,7 @@ var main = function(){
     $(this).fadeOut();
     $('#ja').slideDown('slow');
   });
-    $(''.buttn-ys').hover(
+    $('.buttn-ys').hover(
     function(){
     $(this).addClass('buttn-ys-highlight');
     },
