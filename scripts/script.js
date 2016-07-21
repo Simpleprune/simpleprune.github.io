@@ -1,5 +1,5 @@
 var main = function(){
-   $("#gateau").click(function(){
+   $('#gateau').click(function(){
     $(this).fadeOut();
   });
   };
