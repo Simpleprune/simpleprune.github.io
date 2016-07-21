@@ -3,14 +3,15 @@ var main = function(){
     $(this).fadeOut();
     $('#ja').slideDown('slow');
   });
-    $('.buttn-ys').hover(
-    function(){
+    $('.buttn-ys').hover(function(){
     $(this).addClass('buttn-ys-highlight');
     },
     function(){
     $(this).removeClass('buttn-ys-highlight')    
     }
   );
+  $('.buttn-ys').click(function(){
+    $('#conteneur-init').fadeOut();
   };
   
 
