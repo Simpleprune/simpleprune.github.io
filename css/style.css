@@ -22,3 +22,11 @@ margin: 0 auto;
   text-transform: uppercase;
   
 }
+.buttn-ys{
+  display: inline;
+  background-color: #70C194;
+  font-family: Verdana, Sans;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
