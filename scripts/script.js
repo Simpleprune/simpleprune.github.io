@@ -11,8 +11,9 @@ var main = function(){
     }
   );
   $('.buttn-ys').click(function(){
-    $('#conteneur-init').fadeOut();)
-  };
+    $('#conteneur-init').fadeOut();
+    )};
+};
   
 
 
