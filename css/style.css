@@ -7,3 +7,9 @@ text-align: center;
   margin-right: auto;
   width:1024px;
 }
+
+#ja{
+  font-size: 32px;
+  font-family: Verdana, Sans;
+  font-style: bold;
+}
