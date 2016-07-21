@@ -1,6 +1,6 @@
 var main = function(){
    $('#gateau').click(function(){
-    $('this').fadeOut();
+    $(this).fadeOut();
   });
   };
   
