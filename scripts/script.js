@@ -1,6 +1,9 @@
 $(document).ready(function(){
   $('.bougie').click(function(){
-    $(this).FadeOut('slow');
+    $(this).fadeOut('slow');
     });
+  $("#gateau").click(function(){
+    $(this).fadeOut('slow');
+  });
   });
   
