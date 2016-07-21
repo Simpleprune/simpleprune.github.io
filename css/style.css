@@ -33,3 +33,16 @@ margin: 0 auto;
   padding: 5px;
   margin: 0 auto;
 }
+
+.buttn-ys-highlight{
+  display: block;
+  background-color: #64AF82;
+  font-family: Verdana, Sans;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 5px;
+  margin: 0 auto;
+  border-color:#1469E2;
+}
