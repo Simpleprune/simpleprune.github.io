@@ -1,4 +1,4 @@
-$(document).ready(function(){
+var main = function(){
   $('.bougie').click(function(){
     $(this).fadeOut('slow');
     });
@@ -7,3 +7,4 @@ $(document).ready(function(){
   });
   });
   
+  $(document).ready(main);
