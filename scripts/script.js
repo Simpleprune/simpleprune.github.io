@@ -12,7 +12,7 @@ var main = function(){
   );
   $('.buttn-ys').click(function(){
     $('#conteneur-init').fadeOut('slow');
-    window.location.href("http://estellelagrossenaze.com/menu");
+    window.location.href="http://estellelagrossenaze.com/menu";
     });
 };
   
