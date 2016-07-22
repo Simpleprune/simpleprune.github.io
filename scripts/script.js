@@ -12,7 +12,9 @@ var main = function(){
   );
   $('.buttn-ys').click(function(){
     $('#conteneur-init').fadeOut('slow');
+    $('#conteneur-init').promise().done(function(){
     window.location.href="http://estellelagrossenaze.com/menu";
+    });
     });
 };
   
