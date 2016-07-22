@@ -54,3 +54,15 @@ margin: 0 auto;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
 }
+
+#menu{
+  display: block;
+  background-color: #1C1C1C;
+  font-family: Verdana, Sans;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+  
+}
