@@ -35,6 +35,7 @@ margin: 0 auto;
   margin:0 auto;
   padding-top: 20px;
   font-size:18px;
+  text-decoration:none;
 }
 
 .buttn-ys-highlight{
@@ -53,6 +54,7 @@ margin: 0 auto;
    font-size:18px;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
+  text-decoration:none;
 }
 
 #menu{
