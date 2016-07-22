@@ -1,6 +1,6 @@
 var main = function(){
    $('#gateau').click(function(){
-    $(this).fadeOut();
+    $(this).hide("bounce", { times: 3 }, "slow");
     $('#ja').slideDown('slow');
   });
     $('.buttn-ys').hover(function(){
