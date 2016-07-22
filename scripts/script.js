@@ -1,8 +1,7 @@
 var main = function(){
    $('#gateau').click(function(){
-      $(this).animate("bounce", { times: 5 }, 200);
+      $(this).animate({duration: 1000, easing: 'easeOutBounce'});
    // $(this).fadeOut();//
-    $('#ja').slideDown('slow');
   });
     $('.buttn-ys').hover(function(){
     $(this).addClass('buttn-ys-highlight');
