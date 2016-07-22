@@ -1,6 +1,6 @@
 var main = function(){
    $('#gateau').click(function(){
-      $(this).effect("bounce", { times: 5 }, 200);
+      $(this).animate("bounce", { times: 5 }, 200);
     $(this).fadeOut();
     $('#ja').slideDown('slow');
   });
