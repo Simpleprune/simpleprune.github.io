@@ -38,12 +38,10 @@ margin: 0 auto;
  
 }
 
-a.buttn-ys{
+a{
    text-decoration:none;
 }
-a.buttn-ys-highlight{
-   text-decoration:none;
-}
+
 .buttn-ys-highlight{
   display: block;
   background-color: #64AF82;
