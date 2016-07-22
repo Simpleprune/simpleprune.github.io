@@ -11,8 +11,8 @@ var main = function(){
     }
   );
   $('.buttn-ys').click(function(){
-    $('#conteneur-init').fadeOut();
-    window.location.replace("http://estellelagrossenaze.com/menu");
+    $('#conteneur-init').fadeOut('slow');
+    window.location.href("http://estellelagrossenaze.com/menu");
     });
 };
   
