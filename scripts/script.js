@@ -1,6 +1,6 @@
 var main = function(){
    $('#gateau').click(function(){
-      $(this).animate({duration: 1000, easing: 'easeOutBounce'});
+      $(this).toggle("drop",{duration: 1000, easing: 'easeOutBounce'});
    // $(this).fadeOut();//
   });
     $('.buttn-ys').hover(function(){
