@@ -81,7 +81,8 @@ a{
   margin : 7px;
   width: 200px;
   height: 200px;
-  
+  border-style: solid;
+  border-radius:15px;
 }
 h1.card{
    float:left;
