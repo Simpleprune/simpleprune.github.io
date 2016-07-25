@@ -73,3 +73,9 @@ a{
     text-align: center;
   }
 }
+
+.card{
+  border-color :#747C77;
+  display:inline;
+}
+}
