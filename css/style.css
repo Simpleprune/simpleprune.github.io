@@ -83,7 +83,7 @@ a{
   height: 200px;
   border-style: solid;
   border-radius:15px;
-  box-shadow: 0 0 10px #747C77;
+  box-shadow: 0 0 5px #747C77;
 }
 h1.card{
    float:left;
