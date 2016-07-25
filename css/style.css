@@ -76,6 +76,7 @@ a{
 
 .card{
   border-color :#747C77;
-  display:inline;
+  float:left;
+  border-width:2px;
 }
 
