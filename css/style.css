@@ -77,12 +77,13 @@ a{
 .card{
   border-color :#747C77;
   float:left;
-  border-width:4px;
+  border-width:1px;
   margin : 7px;
   width: 200px;
   height: 200px;
   border-style: solid;
   border-radius:15px;
+  box-shadow: 0 0 10px #747C77;
 }
 h1.card{
    float:left;
