@@ -79,8 +79,8 @@ a{
   float:left;
   border-width:2px;
   margin : 7px;
-  width: 45px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   overflow:scroll;
 }
 h1.card{
