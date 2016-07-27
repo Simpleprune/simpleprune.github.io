@@ -12,6 +12,7 @@ var main = function(){
   
   $('.view').click(function(event){
     event.stopPropagation();
+  });
   
    $('.btn').click(function() {
     var post = $('.status-box').val();
