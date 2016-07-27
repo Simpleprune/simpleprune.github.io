@@ -19,11 +19,11 @@ var main = function(){
     event.stopPropagation();
   });
   //Quand on clique hors d'une carte, on la ferme
-  $('body').click(function(){
-    var currentCard = $('.selected');
-    currentCard.children('.view').hide();
-    currentCard.removeClass('selected');
-  })
+  //$('body').click(function(){
+  //  var currentCard = $('.selected');
+  //  currentCard.children('.view').hide();
+  //  currentCard.removeClass('selected');
+  //})
   
   //Début de la partie formulaire
   
