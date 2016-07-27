@@ -7,7 +7,7 @@ var main = function(){
   $('.card').click(function(){
     $(this).toggleClass('selected');
     $('#cards').prepend($(this));
-    $(this).children("view").show();
+    $(this).children('.view').show();
   });
 };
 
