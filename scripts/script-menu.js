@@ -12,6 +12,9 @@ var main = function(){
   });
   
   $('.card').click(function(){
+    var currentCard = $('.selected');
+    currentCard.children('.view').hide();
+    currentCard.removeClass('selected');
     $(this).addClass('selected');
     $('#cards').prepend($(this));
     $(this).children('.view').show();
