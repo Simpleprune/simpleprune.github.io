@@ -4,15 +4,28 @@ var main = function(){
   },
   function(){$(this).removeClass('card-preview');}
   );
+  
+  //Lecture des cartes
+  
   $('.card').click(function(){
-    $(this).toggleClass('selected');
+    $(this).addClass('selected');
     $('#cards').prepend($(this));
     $(this).children('.view').show();
   });
   
+  //Quand on clique dans le div '.view', on ne ferme pas la fenêtre
+  
   $('.view').click(function(event){
     event.stopPropagation();
   });
+  //Quand on clique hors d'une carte, on la ferme
+  $('body').click(function(){
+    var currentCard = $('.selected');
+    currentCard.children('.view').hide();
+    currentCard.removeClass('selected');
+  })
+  
+  //Début de la partie formulaire
   
    $('.btn').click(function() {
     var post = $('.status-box').val();
@@ -37,6 +50,9 @@ var main = function(){
       $('.btn').removeClass('disabled');
     }
   });
+  
+  //Fin de la partie formulaire
+  
   
   $('.btn').addClass('disabled')
 };
