@@ -99,6 +99,7 @@ h1.card{
 }
 .selected{
   width:1024px;
+  height: 2000px;
   background-color: #FFFFFF;
   float: left;
   margin-top:7px;
