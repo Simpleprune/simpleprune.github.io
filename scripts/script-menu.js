@@ -7,6 +7,9 @@ var main = function(){
   
   //Lecture des cartes
   
+  $('.card').click(function(event){
+    event.stopPropagation();
+  
   $('.card').click(function(){
     $(this).addClass('selected');
     $('#cards').prepend($(this));
@@ -19,11 +22,11 @@ var main = function(){
     event.stopPropagation();
   });
   //Quand on clique hors d'une carte, on la ferme
-  //$('body').click(function(){
-  //  var currentCard = $('.selected');
-  //  currentCard.children('.view').hide();
-  //  currentCard.removeClass('selected');
-  //})
+  $('body').click(function(){
+    var currentCard = $('.selected');
+    currentCard.children('.view').hide();
+    currentCard.removeClass('selected');
+  })
   
   //Début de la partie formulaire
   
