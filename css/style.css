@@ -92,5 +92,9 @@ h1.card{
 .preview{
   text-align:center;
 }
+
+.card-preview{
+  box-shadow: 0 0 10px #747C77;
+  background-color: #B7BCB9;
 }
 
