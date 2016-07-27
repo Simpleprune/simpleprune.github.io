@@ -9,6 +9,7 @@ var main = function(){
   
   $('.card').click(function(event){
     event.stopPropagation();
+  });
   
   $('.card').click(function(){
     $(this).addClass('selected');
