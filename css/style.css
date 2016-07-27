@@ -85,7 +85,7 @@ a{
   border-radius:15px;
   box-shadow: 0 0 5px #747C77;
 }
-h1.card{
+.card h1{
    font-family: Verdana, sans-serif;
 }
 
