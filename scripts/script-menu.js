@@ -10,6 +10,9 @@ var main = function(){
     $(this).children('.view').show();
   });
   
+  $('.view').click(function(event){
+    event.stopPropagation();
+  
    $('.btn').click(function() {
     var post = $('.status-box').val();
     $('<li>').text(post).prependTo('.posts');
