@@ -6,7 +6,7 @@ var main = function(){
   );
   $('.card').click(function(){
     $(this).toggleClass('selected');
-    $(this).('preview').fadeOut();
+    $(this).children('preview').fadeOut();
   });
 };
 
