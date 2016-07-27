@@ -97,4 +97,7 @@ h1.card{
   box-shadow: 0 0 10px #747C77;
   background-color: #F2F2F2;
 }
+.selected{
+  width:1024px;
+}
 
