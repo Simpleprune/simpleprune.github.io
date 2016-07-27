@@ -6,7 +6,7 @@ var main = function(){
   );
   $('.card').click(function(){
     $(this).toggleClass('selected');
-    $('#cards').prepend($('selected'));
+    $('#cards').prepend($(this));
   });
 };
 
