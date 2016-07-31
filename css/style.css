@@ -44,8 +44,7 @@ a.btn.btn-primary.disabled{
   text-align: center;
   text-transform: uppercase;
   color: white;
-  height: 30px;
-  width: 200px;
+  padding: 5px;
   margin:0 auto;
   font-size:18px;
 }
