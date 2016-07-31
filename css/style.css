@@ -49,6 +49,19 @@ a.btn.btn-primary.disabled{
   font-size:18px;
 }
 
+highlight{
+  background-color: #64AF82;
+  font-family: Verdana, Sans;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  border-color:#1469E2;
+  border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+  text-decoration:none;
+}
+
 a{
    text-decoration:none;
 }
