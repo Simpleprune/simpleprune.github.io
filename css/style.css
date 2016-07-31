@@ -37,6 +37,20 @@ margin: 0 auto;
   font-size:18px;
  
 }
+a .btn .btn-primary .disabled{
+   display: block;
+  background-color: #70C194;
+  font-family: Verdana, Sans;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  height: 40px;
+  width: 200px;
+  margin:0 auto;
+  padding-top: 20px;
+  font-size:18px;
+}
 
 a{
    text-decoration:none;
