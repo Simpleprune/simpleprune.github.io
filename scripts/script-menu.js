@@ -60,7 +60,11 @@ var main = function(){
   
   $('#Post').hover(function(){
     $(this).addClass('highlight');
-    });
+    },
+    function(){
+    $(this).removeClass('highlight');   
+    }
+    );
   //Fin de la partie formulaire
   
   
