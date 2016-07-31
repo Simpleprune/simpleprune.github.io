@@ -58,7 +58,7 @@ var main = function(){
     }
   });
   
-  $('a.btn.btn-primary.disabled').hover(function(){
+  $('#Post').hover(function(){
     $(this).addClass('highlight');
     });
   //Fin de la partie formulaire
