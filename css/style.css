@@ -95,6 +95,8 @@ a{
 }
   #menu-btn{
     text-align: center;
+    display:inline-block;
+    width:240px;
 
   }
 
@@ -175,15 +177,7 @@ a{
 }
 }
 
-svg.icons8-Menu { /* Customizes Menu icon */
-  fill:#false;
-  width: 4px;
-  height: 4px;
-}
-.icon { /* Customizes all icons at once */
-  display: inline-block;
-}
+
 .sidebar{
-  display:inline;
-}
+  display:inline-block;
 }
