@@ -86,12 +86,12 @@ a{
 }
 
 #menu{
-  background-color: #1C1C1C;
+  color: #1C1C1C;
   font-family: Verdana, Sans;
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
-  color: white;
+ 
 }
   #menu-btn{
     text-align: center;
