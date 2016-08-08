@@ -134,7 +134,7 @@ th, td {
   background-color: #FFFFFF;
   float: right;
   margin-top:7px;
-  
+  z-index:100;
 }
 
 .view{
