@@ -129,7 +129,7 @@ th, td {
   background-color: #F2F2F2;
 }
 .selected{
-  width:60px;
+  width:60%;
   height: 2000px;
   background-color: #FFFFFF;
   display:inline;
