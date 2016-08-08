@@ -7,7 +7,7 @@ var main = function(){
   
   //Bounce du menu
   $('#prez').hover(function(){
-    $(this).animate("bounce",{ times: 3 },"slow");
+    $(this).animate('bounce',{ times: 3 },'slow');
   });
   
   //Lecture des cartes
