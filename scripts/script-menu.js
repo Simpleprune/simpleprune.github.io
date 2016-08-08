@@ -18,8 +18,10 @@ var main = function(){
   });
   
   //Bounce du Joyeux anniversaire
-  $('.hb').hover(function(){
+  $('.hb').each(function(){
+  $(this).hover(function(){
     $(this).effect( "bounce", {times:3}, 1000 );
+  });
   });
   
   //Lecture des cartes
