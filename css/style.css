@@ -66,6 +66,9 @@ a{
    text-decoration:none;
 }
 
+th, td {
+    padding: 15px;
+}
 .buttn-ys-highlight{
   display: block;
   background-color: #64AF82;
