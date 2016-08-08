@@ -10,6 +10,11 @@ var main = function(){
     $(this).effect( "bounce", {times:3}, 1000 );
   });
   
+  //Bounce du Joyeux anniversaire
+  $('.hb').hover(function(){
+    $(this).effect( "bounce", {times:3}, 1000 );
+  });
+  
   //Lecture des cartes
   
   $('.card').click(function(event){
