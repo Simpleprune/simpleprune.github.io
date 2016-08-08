@@ -182,3 +182,7 @@ a{
 .icon { /* Customizes all icons at once */
   display: inline-block;
 }
+.sidebar{
+  display:inline;
+}
+}
