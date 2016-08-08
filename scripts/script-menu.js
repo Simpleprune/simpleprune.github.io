@@ -5,6 +5,11 @@ var main = function(){
   function(){$(this).removeClass('card-preview');}
   );
   
+  //Bounce du menu
+  $('#prez').hover(function(){
+    $(this).bounce('slow',3);
+  });
+  
   //Lecture des cartes
   
   $('.card').click(function(event){
