@@ -174,3 +174,11 @@ a{
 }
 }
 
+.icons8-Menu { /* Customizes Menu icon */
+  fill:#false;
+  width: 48px;
+  height: 48px;
+}
+.icon { /* Customizes all icons at once */
+  display: inline-block;
+}
