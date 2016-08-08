@@ -9,6 +9,10 @@ var main = function(){
   $('#prez').hover(function(){
     $(this).effect( "bounce", {times:3}, 1000 );
   });
+  // Couleurs aléatoires des lettres
+  var colors = ['#ff0000', '#00ff00', '#0000ff'];
+  var random_color = colors[Math.floor(Math.random() * colors.length)];
+  $('.hb').css('color', random_color);
   
   //Bounce du Joyeux anniversaire
   $('.hb').hover(function(){
