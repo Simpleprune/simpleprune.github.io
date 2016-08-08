@@ -189,3 +189,9 @@ th, td {
 .sidebar{
   display:inline-block;
 }
+
+.hb{
+  display:inline;
+  font-family:Verdana, sans-serif;
+  font-size:24px;
+}
