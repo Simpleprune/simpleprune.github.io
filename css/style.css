@@ -175,7 +175,7 @@ a{
 }
 }
 
-.icons8-Menu { /* Customizes Menu icon */
+svg.icons8-Menu { /* Customizes Menu icon */
   fill:#false;
   width: 4px;
   height: 4px;
