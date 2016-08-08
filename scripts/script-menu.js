@@ -12,7 +12,9 @@ var main = function(){
   // Couleurs aléatoires des lettres
   var colors = ['#ff0000', '#00ff00', '#0000ff'];
   var random_color = colors[Math.floor(Math.random() * colors.length)];
-  $('.hb').css('color', random_color);
+  $('.hb').each(function(){
+   $(this).css('color', random_color); 
+  });
   
   //Bounce du Joyeux anniversaire
   $('.hb').hover(function(){
