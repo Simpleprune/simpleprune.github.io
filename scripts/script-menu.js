@@ -36,7 +36,8 @@ var main = function(){
     currentCard.children('.view').hide();
     currentCard.removeClass('selected');
     $(this).addClass('selected');
-    $('#cards').prepend($(this));
+   //A réactiver pour mettre en place le changement d'ordre
+   // $('#cards').prepend($(this));
     $(this).children('.view').show();
   });
   
