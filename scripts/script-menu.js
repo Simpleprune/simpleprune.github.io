@@ -18,7 +18,7 @@ var main = function(){
   });
   
   //Bounce du Joyeux anniversaire
-  $('.hb').hover(function(){
+  $('#menu-btn').hover(function(){
   $(this).children().each(function(){
     $(this).effect( "bounce", {times:3}, 1000 );
   });
