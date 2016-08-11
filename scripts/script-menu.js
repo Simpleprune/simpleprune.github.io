@@ -15,7 +15,7 @@ var main = function(){
       left: "0px"
     }, 200);
 
-    $('body').animate({
+    $('#cards').animate({
       left: "285px"
     }, 200);
   });
