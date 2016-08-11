@@ -202,4 +202,6 @@ th, td {
   height: 100%;
   position: fixed;
   width: 285px;
+  color:#ffffff;
+  padding:5px;
 }
