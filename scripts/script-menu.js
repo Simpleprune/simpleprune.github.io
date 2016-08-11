@@ -11,13 +11,8 @@ var main = function(){
   });
   //Ouverture menu
    $('.icon-menu').click(function() {
-    $('.menu-bg').animate({
-      left: "0px"
-    }, 200);
-
-    $('#cards').animate({
-      left: "2085px"
-    }, 200);
+    $('.menu-bg').animate({left: "0px"}, 200);
+    $('#main').animate({left: "285px"}, 200);
   });
 
   // Couleurs aléatoires des lettres
