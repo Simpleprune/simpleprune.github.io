@@ -16,7 +16,7 @@ var main = function(){
     }, 200);
 
     $('#cards').animate({
-      left: "285px"
+      left: "2085px"
     }, 200);
   });
 
