@@ -1,14 +1,17 @@
 var main = function(){
   $('.card').hover(function(){
-    $(this).animate({top: "-5px"}, 200);
     $(this).addClass('card-preview');
     
   },
   function(){$(this).removeClass('card-preview');
-    $(this).animate({top: "5px"}, 200);
   }
   );
-  
+   $('.card').hover(function(){
+     $(this).animate({top: "-5px"}, 200);
+   },
+   function(){
+      $(this).animate({top: "5px"}, 200);
+   });
   //Bounce du menu
   $('#prez').hover(function(){
     $(this).effect( "bounce", {times:3}, 1000 );
