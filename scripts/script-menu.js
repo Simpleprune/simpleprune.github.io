@@ -9,6 +9,17 @@ var main = function(){
   $('#prez').hover(function(){
     $(this).effect( "bounce", {times:3}, 1000 );
   });
+  //Ouverture menu
+   $('.icon-menu').click(function() {
+    $('.menu-bg').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "285px"
+    }, 200);
+  });
+
   // Couleurs aléatoires des lettres
 
   $('.hb').each(function(){
