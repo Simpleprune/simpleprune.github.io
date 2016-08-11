@@ -1,11 +1,11 @@
 var main = function(){
   $('.card').hover(function(){
-   $(this).effect( "bounce", {times:1}, 1000 );
+   $(this).animate({top:"5px"}, 1000 );
     $(this).addClass('card-preview');
     
   },
   function(){$(this).removeClass('card-preview');
-
+   $(this).animate({top:"-5px"}, 1000 );
   }
   );
 
