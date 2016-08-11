@@ -14,6 +14,17 @@ var main = function(){
     $('.menu-bg').animate({left: "0px"}, 200);
     $('#main').animate({left: "285px"}, 200);
   });
+  
+   /* Then push them back */
+  $('.icon-close').click(function() {
+    $('.menu').animate({
+      left: "-285px"
+    }, 200);
+
+    $('body').animate({
+      left: "0px"
+    }, 200);
+  });
 
   // Couleurs aléatoires des lettres
 
