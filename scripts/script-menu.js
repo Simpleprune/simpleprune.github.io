@@ -1,7 +1,8 @@
 var main = function(){
   $('.card').hover(function(){
-    $(this).addClass('card-preview');
     $(this).animate({top: "-10px"}, 200);
+    $(this).addClass('card-preview');
+    
   },
   function(){$(this).removeClass('card-preview');
     $(this).animate({top: "10px"}, 200);
