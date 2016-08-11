@@ -17,7 +17,7 @@ var main = function(){
   
    /* Then push them back */
   $('.icon-close').click(function() {
-    $('.menu').animate({left: "-285px"}, 200);
+    $('.menu-bg').animate({left: "-285px"}, 200);
 
     $('body').animate({left: "0px"}, 200);
   });
