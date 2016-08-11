@@ -5,7 +5,7 @@ var main = function(){
     
   },
   function(){$(this).removeClass('card-preview');
-  $(this).effect( "bounce", {times:1}, 1000 );
+
   }
   );
 
