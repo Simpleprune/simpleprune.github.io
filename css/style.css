@@ -128,6 +128,7 @@ th, td {
 .card-preview{
   box-shadow: 0 0 10px #747C77;
   background-color: #ffffff;
+  /*#F2F2F2 pour le gris*/
 }
 .selected{
   width:60%;
