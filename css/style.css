@@ -206,6 +206,7 @@ th, td {
   width: 285px;
   color:#ffffff;
   top:0px;
+  z-index:110px;
  
 }
 .menu-bg p {
@@ -217,4 +218,5 @@ th, td {
   margin-left: auto;
   margin-right: auto;
   position:absolute;
+  padding:5px;
 }
