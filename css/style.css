@@ -206,7 +206,7 @@ th, td {
   width: 285px;
   color:#ffffff;
   top:0px;
-  z-index:110px;
+  z-index:110;
  
 }
 .menu-bg p {
