@@ -211,3 +211,9 @@ th, td {
 .menu-bg p {
    margin:5px;
 }
+
+#disqus-thread{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+}
