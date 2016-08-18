@@ -79,7 +79,7 @@ var main = function(){
   })
   
   //On peut aussi fermer une carte avec Echap
-  $(document).keypress(function(e) {
+  $(document).keyup(function(e) {
     if (e.keyCode === 27)
       var currentCard = $('.selected');
     currentCard.children('.view').hide();
