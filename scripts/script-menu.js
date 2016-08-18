@@ -123,7 +123,7 @@ var main = function(){
   
   
   $('.btn').addClass('disabled')
-};
+
 
 //Animation de la timeline
 
@@ -153,5 +153,5 @@ var main = function(){
 		});
 	}
 
-
+};
 $(document).ready(main);
