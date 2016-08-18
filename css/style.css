@@ -126,6 +126,7 @@ th, td {
   border-radius:15px;
   box-shadow: 0 0 5px #747C77;
   position:relative;
+  background-color:#ffffff;
 }
 .card h1{
    font-family: Verdana, sans-serif;
