@@ -145,7 +145,8 @@ th, td {
   position:absolute;
   top: 25%;
   left: 20%;
-  
+  height:auto;
+  overflow:auto;
 }
 
 .view{
