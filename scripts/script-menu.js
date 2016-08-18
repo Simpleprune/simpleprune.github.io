@@ -30,7 +30,7 @@ var main = function(){
   // Couleurs aléatoires des lettres
 
   $('.hb').each(function(){
-  var colors = ['#ff0000', '#00ff00', '#0000ff'];
+  var colors = ['#cad4e0', '#70c194', '#f9be06'];
   var random_color = colors[Math.floor(Math.random() * colors.length)];
    $(this).css('color', random_color); 
   });
