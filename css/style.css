@@ -72,7 +72,7 @@ a{
 }
 
 th, td {
-    padding: 15px;
+    padding: 10px;
 }
 .buttn-ys-highlight{
   display: block;
@@ -112,6 +112,7 @@ th, td {
     display:inline-block;
     width:1024px;
     height:46px;
+    line-height:46px;
 
   }
 
