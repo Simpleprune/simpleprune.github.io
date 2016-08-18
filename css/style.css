@@ -116,10 +116,10 @@ th, td {
   position:absolute;
 }
 .img-prev{
-  height:30px;
-  width:30px;
+  height:100px;
+  width:100px;
  display:block;
- margin:0 auto;
+ margin:10 auto;
 }
 .card{
   border-color :#747C77;
