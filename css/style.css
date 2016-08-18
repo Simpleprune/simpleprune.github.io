@@ -671,3 +671,9 @@ header h1 {
     transform: translateX(0);
   }
 }
+
+.cd-timeline-content p{
+  position:relative;
+  width:90%;
+
+}
