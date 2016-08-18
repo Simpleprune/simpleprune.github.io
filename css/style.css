@@ -111,6 +111,7 @@ th, td {
 
 #cards{
   background-image:url('http://www.estellelagrossenaze.com/images/Background-test.svg');
+  height:100%;
 }
 .card{
   border-color :#747C77;
