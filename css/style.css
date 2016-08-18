@@ -156,6 +156,7 @@ th, td {
   left: 20%;
   height:auto;
   overflow:auto;
+  opacity:1;
 }
 
 .view{
