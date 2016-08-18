@@ -71,6 +71,21 @@ var main = function(){
     currentCard.removeClass('selected');
   })
   
+  //Quand on clique sur la croix d'une carte on la ferme
+  $('.icon-close.view').click(function(){
+    var currentCard = $('.selected');
+    currentCard.children('.view').hide();
+    currentCard.removeClass('selected');
+  })
+  
+  //On peut aussi fermer une carte avec Echap
+  $(document).keypress(function(e) {
+    if (e.keyCode === 27){
+      var currentCard = $('.selected');
+    currentCard.children('.view').hide();
+    currentCard.removeClass('selected');
+    }
+    });
   //Début de la partie formulaire
   
    $('.btn').click(function() {
