@@ -109,7 +109,9 @@ th, td {
 
   }
 
-
+#cards{
+  background-image:"https://wwww.estellelagrossenaze.com/images/Background-test.svg";
+}
 .card{
   border-color :#747C77;
   float:left;
