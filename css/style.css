@@ -116,9 +116,9 @@ th, td {
   position:absolute;
 }
 .img-prev{
-  height:20%;
-  position:absolute;
-  text-align:center;
+  height:30%;
+ display:block;
+ margin:0 auto;
 }
 .card{
   border-color :#747C77;
