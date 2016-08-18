@@ -1,6 +1,6 @@
 var main = function(){
   $('.card').hover(function(){
-   $(this).animate({top:"-10px"}, 200 );
+   $(this).animate({top:"0px"}, 200 );
     $(this).addClass('card-preview');
     
   },
