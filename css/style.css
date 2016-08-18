@@ -432,7 +432,7 @@ header h1 {
 }
 .cd-timeline-content {
   position: relative;
-  margin-left: 10px;
+  margin-left: 25px;
   background: white;
   border-radius: 0.25em;
   padding: 1em;
@@ -505,7 +505,7 @@ header h1 {
   }
   .cd-timeline-content::before {
     top: 24px;
-    left: 90%;
+    left: 100%;
     border-color: transparent;
     border-left-color: white;
   }
