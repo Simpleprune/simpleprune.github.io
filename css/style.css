@@ -113,6 +113,7 @@ th, td {
   background-image:url('http://www.estellelagrossenaze.com/images/Background-test.svg');
   height:100%;
   width:100%;
+  position:absolute;
 }
 .card{
   border-color :#747C77;
