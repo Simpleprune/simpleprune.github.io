@@ -103,6 +103,8 @@ th, td {
   z-index:110;
   position:fixed;
   background-color:#ffffff;
+  height:auto;
+  overflow:auto;
  
 }
   #menu-btn{
