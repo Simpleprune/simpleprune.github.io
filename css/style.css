@@ -110,7 +110,7 @@ th, td {
   }
 
 #cards{
-  background-image:"https://wwww.estellelagrossenaze.com/images/Background-test.svg";
+  background-image:url('https://wwww.estellelagrossenaze.com/images/Background-test.svg');
 }
 .card{
   border-color :#747C77;
