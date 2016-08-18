@@ -136,7 +136,7 @@ th, td {
   /*#F2F2F2 pour le gris*/
 }
 .selected{
-  width:65%;
+  width:60%;
 
   background-color: #FFFFFF;
   display:inline;
@@ -505,7 +505,7 @@ header h1 {
   }
   .cd-timeline-content::before {
     top: 24px;
-    left: 100%;
+    left: 90%;
     border-color: transparent;
     border-left-color: white;
   }
