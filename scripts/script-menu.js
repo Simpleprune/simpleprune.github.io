@@ -5,7 +5,7 @@ var main = function(){
     
   },
   function(){$(this).removeClass('card-preview');
-   $(this).animate({top:"0px"}, 200 );
+   $(this).animate({top:"20px"}, 200 );
   }
   );
 
