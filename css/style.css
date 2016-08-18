@@ -102,6 +102,7 @@ th, td {
   box-shadow:0px 10px 20px;
   z-index:5;
   position:fixed;
+  background-color:#ffffff;
  
 }
   #menu-btn{
@@ -137,7 +138,7 @@ th, td {
   position:relative;
   background-color:#ffffff;
   opacity:0.9;
-  top:20px;
+  top:85px;
 }
 .card h1{
    font-family: Verdana, sans-serif;
