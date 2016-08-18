@@ -115,6 +115,11 @@ th, td {
   width:100%;
   position:absolute;
 }
+.img-prev{
+  height:20%;
+  position:absolute;
+  text-align:center;
+}
 .card{
   border-color :#747C77;
   float:left;
