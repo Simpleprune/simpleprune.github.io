@@ -127,6 +127,7 @@ th, td {
   box-shadow: 0 0 5px #747C77;
   position:relative;
   background-color:#ffffff;
+  opacity:0.8;
 }
 .card h1{
    font-family: Verdana, sans-serif;
@@ -140,6 +141,7 @@ th, td {
   box-shadow: 0 0 10px #747C77;
   background-color: #ffffff;
   /*#F2F2F2 pour le gris*/
+  opacity:1;
 }
 .selected{
   width:60%;
