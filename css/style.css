@@ -136,7 +136,7 @@ th, td {
   /*#F2F2F2 pour le gris*/
 }
 .selected{
-  width:60%;
+  width:100%;
 
   background-color: #FFFFFF;
   display:inline;
