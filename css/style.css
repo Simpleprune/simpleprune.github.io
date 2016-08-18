@@ -116,7 +116,8 @@ th, td {
   position:absolute;
 }
 .img-prev{
-  height:30%;
+  height:30px;
+  width:30px;
  display:block;
  margin:0 auto;
 }
