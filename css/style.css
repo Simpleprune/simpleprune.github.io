@@ -299,6 +299,7 @@ header h1 {
 .cd-timeline-block {
   position: relative;
   margin: 2em 0;
+  width:40%;
 }
 .cd-timeline-block:after {
   content: "";
