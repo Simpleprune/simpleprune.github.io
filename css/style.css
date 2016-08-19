@@ -121,6 +121,7 @@ th, td {
   height:300%;
   width:100%;
   position:absolute;
+  top:-10px;
 }
 .img-prev{
   height:120px;
