@@ -731,6 +731,9 @@ header h1 {
     display: block;
 }
 
+#slide1{
+  background-image:url("images/libellule.png");
+}
 .slide-copy{
   z-index:101;
 }
