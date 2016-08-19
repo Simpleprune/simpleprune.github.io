@@ -740,6 +740,15 @@ header h1 {
 #slide2{
   text-align:center;
 }
+#slide3{
+  background-image:url("http://www.estellelagrossenaze.com/images/libellules-plein.png");
+color:white;
+text-align:center;
+}
+#slide4{
+  background-image:url("http://www.estellelagrossenaze.com/images/libellule.png");
+  padding:20px;
+}
 h2{
   font-family: Verdana, sans-serif;
 }
