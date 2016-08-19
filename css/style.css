@@ -731,6 +731,9 @@ header h1 {
     display: block;
 }
 
+.slide-copy{
+  z-index:101;
+}
 .slide-copy h1 {
   color: #363636;  
   
