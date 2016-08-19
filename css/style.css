@@ -733,6 +733,11 @@ header h1 {
 
 #slide1{
   background-image:url("http://www.estellelagrossenaze.com/images/libellule.png");
+  padding:20px;
+}
+
+h2{
+  font-family: Verdana, sans-serif;
 }
 .slide-copy{
   z-index:101;
