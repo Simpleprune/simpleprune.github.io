@@ -123,6 +123,13 @@ th, td {
   position:absolute;
   top:-10px;
 }
+.acknowledgement{
+  background-image:url('http://www.estellelagrossenaze.com/images/Background-test.svg');
+  color:white;
+  font-family:verdana,sans-serif;
+  font-size:4px;
+  text-align:center;
+}
 .img-prev{
   height:120px;
   width:120px;
