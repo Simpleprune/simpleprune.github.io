@@ -129,6 +129,8 @@ th, td {
   font-family:verdana,sans-serif;
   font-size:4px;
   text-align:center;
+  width:100%;
+  bottom:0px;
 }
 .img-prev{
   height:120px;
