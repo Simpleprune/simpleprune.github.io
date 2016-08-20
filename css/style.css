@@ -338,6 +338,11 @@ header h1 {
   margin: 2em 0;
 
 }
+.cd-date{
+font-weight:bold;
+font-family:Verdana,sans-serif;
+  
+}
 .cd-timeline-block:after {
   content: "";
   display: table;
