@@ -130,7 +130,8 @@ th, td {
   font-size:9px;
   text-align:center;
   width:100%;
-  bottom:0px;
+  bottom:-400%;
+  position: absolute;
 }
 .img-prev{
   height:120px;
