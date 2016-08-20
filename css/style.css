@@ -144,6 +144,9 @@ th, td {
   opacity:0.9;
   top:100px;
 }
+.textelg{
+  padding:15px;
+}
 .card h1{
    font-family: Verdana, sans-serif;
 }
